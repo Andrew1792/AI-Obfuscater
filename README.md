@@ -20,8 +20,8 @@ This Python script uses `pyautogui` to simulate a human typing the contents of a
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-directory>
+    git clone https://github.com/Andrew1792/AI-Obfuscater.git
+    cd AI-Obfuscater
     ```
 
 2.  **Install Dependencies:**
