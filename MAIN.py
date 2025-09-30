@@ -29,7 +29,6 @@ if __name__ == "__main__":
             for token in tokens:
                 if not token:
                     continue
-                
                 if token.isspace(): 
                     handle_whitespace(token)
                 else: 
