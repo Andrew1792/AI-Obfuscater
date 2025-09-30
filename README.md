@@ -18,25 +18,19 @@ This Python script uses `pyautogui` to simulate a human typing the contents of a
 
 ### Installation Steps
 
-1.  **Clone the repository (optional):**
+1.  **Clone the repository:**
     ```bash
     git clone <your-repository-url>
     cd <your-repository-directory>
     ```
 
-2.  **Create a Virtual Environment (Recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install Dependencies:**
+2.  **Install Dependencies:**
     This project requires the `pyautogui` library. Install it using the provided `requirements.txt` file.
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Create the Source Text File:**
+3.  **Create the Source Text File:**
     Create a file named `AI.txt` in the same directory as the script. Place any text you want the simulator to type inside this file.
 
 ## Usage
