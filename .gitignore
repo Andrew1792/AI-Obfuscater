@@ -5,6 +5,3 @@ __pycache__/
 # Virtual Environment folders
 venv/
 .venv/
-
-# Ignore the locally downloaded NLTK data
-nltk_data/

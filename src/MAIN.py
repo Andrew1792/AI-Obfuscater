@@ -1,7 +1,7 @@
 import pyautogui
 import re
 from time import sleep
-from src.typer import TypingConfig, write_word, handle_whitespace
+from typer import TypingConfig, write_word, handle_whitespace
 
 
 if __name__ == "__main__":
@@ -13,7 +13,7 @@ if __name__ == "__main__":
         print("Starting typing simulation in 5 seconds... Switch to your text editor!")
         sleep(5)
 
-        with open('./AI.txt', 'r', encoding='utf-8') as text_file:
+        with open('./src/AI.txt', 'r', encoding='utf-8') as text_file:
             content = text_file.read()
             tokens = re.split(r'(\s+)', content)
 
